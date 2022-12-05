@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+img {
+  max-width: 100%;
+}
+span {
+  font-weight: 400;
+}
+/* Images */
+.logo {
+  width: 20%;
+}
+.small-img {
+  width: 10%;
+  border-radius: 100%;
+}
+/* Buttons */
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 2em;
+  border-radius: 100vh;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* Layout */
+#Vincent-Van-Gogh,
+#Gustave-Courbet,
+#Joseph-Ducreux {
+  display: none;
+}
+header,
+.section-one,
+.section-three {
+  padding: 0.5em 1em;
+}
+header,
+.section-one {
+  display: flex;
+  align-items: center;
+}
+header {
+  justify-content: space-between;
+  border-bottom: 1px solid #c6c6c6;
+  margin-bottom: 2em;
+}
+.section-one {
+  gap: 1em;
+  margin: 0.8em 0;
+}
+.section-three {
+  font-weight: bold;
+}
+.section-three img {
+  width: 5%;
+  margin-right: 0.5em;
+}
+.section-three img:hover {
+  background-color: greenyellow;
+  transition: all;
+}
+.section-three p {
+  margin: 1em 0;
+}
+
+/* Media Query */
+@media (min-width: 800px) {
+  .section-two img {
+    width: 100%;
+  }
+  header,
+  .section-one,
+  .section-three {
+    padding: 1em 2em;
+  }
+  .logo {
+    width: 10%;
+  }
+  .small-img {
+    width: 5%;
+  }
+}

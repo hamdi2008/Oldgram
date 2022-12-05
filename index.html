@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Oldgram</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" class="logo" />
+      <img src="images/user-avatar.png" alt="" class="small-img" />
+    </header>
+    <div class="btn-container">
+      <button onclick="postOne()">Vincent Van Gogh</button>
+      <button onclick="postTwo()">Gustave Courbet</button>
+      <button onclick="postThree()">Joseph Ducreux</button>
+    </div>
+
+    <main>
+      <!-- Vincent Van Gogh -->
+      <div id="Vincent-Van-Gogh">
+        <section class="section-one">
+          <img src="images/avatar-vangogh.jpg" alt="" class="small-img" />
+          <div class="content-container">
+            <h2>Vincent Van Gogh</h2>
+            <h3>Zundert, Netherlands</h3>
+          </div>
+        </section>
+        <section class="section-two">
+          <img src="images/post-vangogh.jpg" alt="" />
+        </section>
+        <section class="section-three">
+          <div class="icon-content">
+            <img src="images/icon-heart.png" alt="" />
+            <img src="images/icon-comment.png" alt="" />
+            <img src="images/icon-dm.png" alt="" />
+          </div>
+          <p>21,492 likes</p>
+          <p>vincey1853 <span>just took a few mushrooms lol</span></p>
+        </section>
+      </div>
+
+      <!-- Gustave Courbet -->
+      <div id="Gustave-Courbet">
+        <section class="section-one">
+          <img src="images/avatar-courbet.jpg" alt="" class="small-img" />
+          <div class="content-container">
+            <h2>Gustave Courbet</h2>
+            <h3>Ornans, France</h3>
+          </div>
+        </section>
+        <section class="section-two">
+          <img src="images/post-courbet.jpg" alt="" />
+        </section>
+        <section class="section-three">
+          <div class="icon-content">
+            <img src="images/icon-heart.png" alt="" />
+            <img src="images/icon-comment.png" alt="" />
+            <img src="images/icon-dm.png" alt="" />
+          </div>
+          <p>12,502 likes</p>
+          <p>gus1819 <span>i'm feeling a bit stressed tbh</span></p>
+        </section>
+      </div>
+
+      <!-- Joseph Ducreux -->
+      <div id="Joseph-Ducreux">
+        <section class="section-one">
+          <img src="images/avatar-ducreux.jpg" alt="" class="small-img" />
+          <div class="content-container">
+            <h2>Joseph Ducreux</h2>
+            <h3>Paris, France</h3>
+          </div>
+        </section>
+        <section class="section-two">
+          <img src="images/post-ducreux.jpg" alt="" />
+        </section>
+        <section class="section-three">
+          <div class="icon-content">
+            <img src="images/icon-heart.png" alt="" />
+            <img src="images/icon-comment.png" alt="" />
+            <img src="images/icon-dm.png" alt="" />
+          </div>
+          <p>15,137 likes</p>
+          <p>
+            jd1735
+            <span
+              >gm friends! which coin are you stacking up today?? post below and
+              WGMI!</span
+            >
+          </p>
+        </section>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
